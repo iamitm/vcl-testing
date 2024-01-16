@@ -8,7 +8,7 @@ export default function FPComponent() {
             const fpLib = await FingerprintJS.load({
                 apiKey: "mRqCZQen4dS2bsC65Ncv",
                 endpoint: [
-                    'https://vcltesting.xyz/fingerprint/vendor/identify/',
+                    'https://www.vcltesting.xyz/fingerprint/vendor/identify/',
                 ],
                 scriptUrlPattern: [
                     'https://vcltesting.xyz/fingerprint/vendor/sdk/v<version>/<apiKey>/loader_v<loaderVersion>.js'
